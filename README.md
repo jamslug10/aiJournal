@@ -17,4 +17,8 @@ El Filósofo: tomará como entrada el aprendizaje del día y generará una respu
 El Hombre de Negocios: tomará como entrada la información de las reuniones del día y las ideas que surgieron durantes estas 24 horas y generará una respuesta a partir de ellas. Recomendará al final un caso de éxito para revisar.
 El Experto en la Ley de Atracción: tomará como entrada los hechos por los que se está agradecido y generará una respuesta a partir de ellos. Cerrará su intervención con una cita de la biblia donde se aluda al poder interno creador que todos tenemos.
 
+Importante:
+1. Generar un archivo .env con la variable OPENAI_API_KEY y establecer su valor con la clave generada en openai
+2. Crear el directorio entries donde se almacenarán las diferentes entradas del diario
+
 
