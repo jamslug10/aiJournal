@@ -21,11 +21,11 @@ def main():
     fecha_iso = fecha_entrada.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
     print("Bienvenido, esta es la entrada correspondiente al día " + fecha_iso)
     print("\nPor favor responda a las siguientes preguntas: \n")
-    acciones_del_dia = input("Mis acciones del día fueron: ")
+    acciones_del_dia = input("Mi acción mas poderosa del día fue: ")
     aprendizaje_del_dia = input("Mi principal aprendizaje del día fue: ")
-    reuniones_del_dia = input("Hoy me reuní con :")
-    ideas_del_dia = input("Hoy tuve las siguientes ideas que me gustaría explorar: ")
-    gratitud_diaria = input("Hoy me siento agradecido por: ")
+    reuniones_del_dia = input("Hoy tuve un encuentro maravilloso con:")
+    ideas_del_dia = input("La idea más poderosa que ha venido a mi mente hoy es: ")
+    gratitud_diaria = input("Hoy me siento especialmente agradecido por: ")
 
     #configuración primera persona
     #filosofo = [{'role':'system', 'content':"""
