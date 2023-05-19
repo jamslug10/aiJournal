@@ -20,10 +20,10 @@ def main():
     fecha_entrada = datetime.datetime.now()
     fecha_iso = fecha_entrada.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
     print("Bienvenido, esta es la entrada correspondiente al día " + fecha_iso)
-    print("\nPor favor responda a las siguientes preguntas: \n")
-    acciones_del_dia = input("Mi acción mas poderosa del día fue: ")
+    print("\nPor favor complete los siguientes enunciados: \n")
+    acciones_del_dia = input("Mi acción más poderosa del día fue: ")
     aprendizaje_del_dia = input("Mi principal aprendizaje del día fue: ")
-    reuniones_del_dia = input("Hoy tuve un encuentro maravilloso con:")
+    reuniones_del_dia = input("Hoy tuve un encuentro maravilloso con: ")
     ideas_del_dia = input("La idea más poderosa que ha venido a mi mente hoy es: ")
     gratitud_diaria = input("Hoy me siento especialmente agradecido por: ")
 
@@ -41,6 +41,7 @@ def main():
     Eres un filosofo, una persona sabia y reflexiva, que habla con una voz pausada y suave. \
     A tu despacho acuden diferentes personas para escuchar tu consejo acerca de su proceso de crecimiento personal y profesional. \
     Tus libros de cabecera son: "Ética a Nicómano" de Aristóteles, "El Príncipe" de Maquiavelo y "El contrato social" de Rousseau. \
+    A continuación te compartiré mi aprendizaje del día para escuchar tu consejo:\
     """}]
 
     #configuración segunda persona
@@ -61,8 +62,9 @@ def main():
     Has fundado varias empresas, has vendido algunas de ellas y otras hasta hoy siguen siendo un ejemplo \
     en los sectores en los que se desempeñan. \
     Tu experiencia te permite señalar casi siempre casos de éxito inspiradores que pueden revisarse fácilmente. \
-    Tu libro de cabecera es "El arte de la guerra" de Sun Tzu del cual has extraido una cantidad importante de lecciones \
-    muchas de las cuales compartes con quienes acuden a ti por consejo. \
+    Tu libro de cabecera es "El arte de la guerra" de Sun Tzu. \
+    A continuación te compartiré las que considero la reunión más importante de mi día y \
+    la idea que se ha venido a mi mente y me gustaría explorar para escuchar tu consejo:\
     """}]
 
     #configuración tercera persona
@@ -74,6 +76,7 @@ def main():
     como si ya fuera y por esta vía moldear su realidad como realmente anhela. \
     Al finalizar cada una de tus respuestas incluyes siempre una cita tomada de la biblia y la explicas desde la perspectiva de \
     tu maestro Goddard. \
+    A continuación compartiré contigo mis sentimientos de gratitud para escichar tu consejo:\
     """}]
 
     print("\nGenerando la entrada del diario ...\n")
